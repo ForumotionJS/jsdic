@@ -1,34 +1,24 @@
 getSel = window.getSelection();
 
-var def = {
-  window.getSelection: 'A range of the text that are selected',
-  var: 'Variable of JS',
-  document.getElementById: 'Get the ID of the current element',
-  my_setcookie: 'Set a cookie',
-  my_getcookie: 'Get a cookie',
-  _userdata: 'User storages'
-};
+var dict = [
+    { title: "window.getSelection", desc: "A range of the text that are selected" },
+    { titlet: "var", desct: "Variable of JS" },
+    { titlef: "document.getElementById", descf: "Get the ID of the current element" },
+    { titlew: "my_setcookie", descw: "Set a cookie" },
+    { titles: "my_getcookie", descs: "Get a cookie" },
+    { titleo: "_userdata", desco: "User storage" }
+];
 
-if(getSel === window.getSelection) {
-  alert(def.window.getSelection);
-}
-
-if(getSel === var) {
-  alert(def.var);
-}
-
-if(getSel === document.getElementById) {
-  alert(def.document.getElementById);
-}
-
-if(getSel === my_setcookie) {
-  alert(def.my_setcookie);
-}
-
-if(getSel === my_getcookie) {
-  alert(def.my_getcookie);
-}
-
-if(getSel === _userdata) {
-  alert(def._userdata);
+for (var i = 0; i < dict.length; i += 1) {
+  if(getSel == dict[i].title) {
+    window.alert.call(dict[i].desc);
+  }else if(getSel == dict[i].titlet) {
+    window.alert.call(dict[i].desct);
+  }else if(getSel == dict[i].titlef) {
+    window.alert.call(dict[i].descf);
+  }else if(getSel == dict[i].titles) {
+    window.alert.call(dict[i].descs);
+  }else if(getSel == dict[i].titleo) {
+    window.alert.call(dict[i].desco);
+  }
 }
