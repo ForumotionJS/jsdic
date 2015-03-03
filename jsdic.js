@@ -1,4 +1,4 @@
-var getSel = function() {
+function getSel() {
     var text = "";
     if (window.getSelection) {
         text = window.getSelection().toString();
