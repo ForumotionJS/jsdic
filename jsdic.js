@@ -18,15 +18,15 @@ var dict = [
 ];
 
 for (var i = 0; i < dict.length; i += 1) {
-  if(getSel == dict[i].title) {
-    window.alert.call(dict[i].desc);
-  }else if(getSel == dict[i].titlet) {
-    window.alert.call(dict[i].desct);
-  }else if(getSel == dict[i].titlef) {
-    window.alert.call(dict[i].descf);
-  }else if(getSel == dict[i].titles) {
-    window.alert.call(dict[i].descs);
-  }else if(getSel == dict[i].titleo) {
-    window.alert.call(dict[i].desco);
+  if(getSel() == dict[i].title) {
+    alert(dict[i].desc);
+  }else if(getSel() == dict[i].titlet) {
+    alert(dict[i].desct);
+  }else if(getSel() == dict[i].titlef) {
+    alert(dict[i].descf);
+  }else if(getSel() == dict[i].titles) {
+    alert(dict[i].descs);
+  }else if(getSel() == dict[i].titleo) {
+    alert(dict[i].desco);
   }
 }
