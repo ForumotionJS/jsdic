@@ -21,6 +21,7 @@ function getSel(){
     dict.forEach(function(v){
         if(text===v.title){
             alert(v.desc);
+            console.log(v.ex + ' ' + v.notes);
         }
     });
 }
