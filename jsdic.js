@@ -10,6 +10,7 @@ function getSel(){
         { title: "my_getcookie", desc: "Get a cookie" },
         { title: "_userdata", desc: "User storage" },
         { title: "document.createElement", desc: "Create a HTML specified element" }
+        { title: "AJAX", desc: "Asynchronous Javascript and XML"}
     ],
     text = "";
     if (window.getSelection) {
