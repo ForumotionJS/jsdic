@@ -12,3 +12,5 @@ It's up to you. `jsdic.js` allows you to use this function in all pages. So your
 * A new modal box.
 * Change it to prototype.
 * Add a lot of explanations to pass in the `dict` array object.
+* Pass a new array object called `ex`, which shows you how to use it. 
+* Pass a new array object called `note`, which adds some extra notes to keep in mind.
