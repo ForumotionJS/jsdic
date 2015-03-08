@@ -4,7 +4,7 @@ window.onkeyup = getSel;
 function getSel(){
     var dict = [
         { title: "window.getSelection", desc: "A range of the text that are selected" },
-        { title: "var", desc: "Variable of JS", ex: "var blabla = blabla;",  notes: "Currently, there is no note."},
+        { title: "var", desc: "Variable of JS"},
         { title: "document.getElementById", desc: "Get the ID of the current element" },
         { title: "my_setcookie", desc: "Set a cookie" },
         { title: "my_getcookie", desc: "Get a cookie" },
@@ -21,7 +21,6 @@ function getSel(){
     dict.forEach(function(v){
         if(text===v.title){
             alert(v.desc);
-            console.log(v.ex + ' ' + v.notes);
         }
     });
 }
