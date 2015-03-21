@@ -1,3 +1,4 @@
+/* special thanks to Bloodbath to help writing this script. */
 window.onmouseup = getSel;
 window.onkeyup = getSel;
 
